@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
+    <link rel='stylesheet' href='./css/linecons.min.css'/><link rel='stylesheet' href='./css/et-line.min.css'/><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
+    
+    <title>events - </title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- Navigation Bloc -->
+<div id="b-nav" class="bloc-container">
+	<div id="bloc-nav" class="d-mode d-mode-active">
+		<div class="bloc bgc-splashed-white bg-header d-bloc" id="nav-bloc">
+			<div class="container bloc-sm">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html"><img src="img/techcolies.png" alt="logo" width="170" height="100" /></a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="index.html" class="ltc-splashed-white">Home</a>
+							</li>
+							<li>
+								<a class="ltc-splashed-white" href="events.html">Events</a>
+							</li>
+							<li>
+								<a class="ltc-splashed-white" href="teams.html">Teams</a>
+							</li>
+							<li>
+								<a class="ltc-splashed-white" href="contact-us.html">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Navigation Bloc END -->
+
+<!-- bloc-2 -->
+<div class="bloc l-bloc bgc-splashed-white" id="bloc-2">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center ">
+					Events
+				</h1>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-4">
+				<h3 class="mg-md text-center">
+					Workshop
+				</h3><a onclick="scrollToTarget('#workshop')"><img src="img/webtech.png" class="mg-lg center-block img-frame" width="350" height="250" alt="WebDevelopmentWorkshop" /></a>
+			</div>
+			<div class="col-sm-4">
+				<h3 class="mg-md text-center">
+					Technical Events
+				</h3><a onclick="scrollToTarget('#technicalevents')"><img src="img/tracks.jpg" class="center-block img-frame" width="350" height="250" alt="TechnicalEvents" /></a>
+			</div>
+			<div class="col-sm-4">
+				<h3 class="mg-md text-center">
+					GamingZone
+				</h3><a onclick="scrollToTarget('#gamingzone')"><img src="img/sanfran.jpg" class="center-block img-frame" width="350" height="250" alt="GamingZone" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-2 END -->
+
+<!-- workshop -->
+<div class="bloc l-bloc bgc-splashed-white" id="workshop">
+<center>
+	<h1>Workshop</h1>
+</center>
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/webtech.png" class="center-block" width="500" height="300" />
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-lg">
+					Web Development
+				</h2>
+				<p class="mg-lg">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- workshop END -->
+
+<!-- technicalevents -->
+<div class="bloc l-bloc bgc-splashed-white" id="technicalevents">
+<center>
+	<h1>Technical Events</h1>
+</center>
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/quiz.png" class="center-block" width="250" height="250" />
+				<h3 class="mg-md text-center">
+					Quiz
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="center-block" width="250" height="250" />
+				<h3 class="mg-md text-center">
+					Debate
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/placeholder-image.png" class="center-block" width="250" height="250" />
+				<h3 class="mg-md text-center">
+					Code Debugging
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/rcube.png" class="center-block" width="250" height="250" />
+				<h3 class="mg-md text-center">
+					Rubik's Cube
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- technicalevents END -->
+
+<!-- gamingzone -->
+<div class="bloc l-bloc bgc-splashed-white" id="gamingzone">
+<center>
+	<h1>GamingZone</h1>
+</center>
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/nfs.png" class="center-block" width="300" height="300" />
+				<h3 class="mg-md text-center">
+					Need For Speed Most Wanted
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/cs.png" class="center-block" width="300" height="300" />
+				<h3 class="mg-md text-center">
+					Counter Strike
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/fifa.png" class="center-block" width="300" height="300" />
+				<h3 class="mg-md text-center">
+					XBox FIFA
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- gamingzone END -->
+
+<!-- Footer - bloc-13 -->
+<div class="bloc l-bloc bgc-splashed-white" id="bloc-13">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-md-offset-3">
+				<div class="col-sm-3 text-center">
+					<a class="social" href="http://www.gniindia.org/" target="_blank"><span class="et-icon-recycle icon-md"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social" href="https://www.facebook.com/events/596825460472926/" target="_blank"><span class="fa fa-facebook icon-md"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a href="https://www.facebook.com/events/596825460472926/" target="_blank"><span class="li_mail icon-md"></span></a>
+				</div>
+				<div class="col-sm-3 text-center">
+					<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-13 END -->
+</div>
+<!-- Main container END -->
+
+</body>
+    
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>
